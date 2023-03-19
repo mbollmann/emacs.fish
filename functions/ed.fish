@@ -13,4 +13,5 @@ function ed --description "Open dired on a directory."
     end
 
     __emacs_launch --tty --eval "(dired $arg)"
+    commandline --function repaint
 end

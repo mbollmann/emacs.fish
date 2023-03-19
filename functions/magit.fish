@@ -32,4 +32,5 @@ function magit --description "Open Magit status buffer on a directory."
 
     __emacs_launch --tty --eval "(magit-status)"
     cd "$cwd"
+    commandline --function repaint
 end
